@@ -9,7 +9,9 @@ const useStyles = makeStyles((theme) => ({
     root: {
         width: '100%',
         maxWidth: 280,
-        backgroundColor: theme.palette.background.paper,
+        backgroundColor: "#dfe6e9",
+        padding: 10,
+        borderRadius: 25
     },
 }));
 
@@ -27,6 +29,7 @@ export default function ListComponent() {
 
     return (
         <div className={classes.root}>
+            <h1>List</h1>
             <InputArea onSubmit={addListItem} />
             <List>
                 {listItems.map((item, index) => {
