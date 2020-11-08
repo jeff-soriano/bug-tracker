@@ -4,7 +4,6 @@ import ListComponent from "./Components/ListComponent/ListComponent"
 
 function App() {
 
-
   return (
     <Container>
       <ListComponent />
