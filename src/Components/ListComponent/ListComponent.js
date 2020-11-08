@@ -8,10 +8,7 @@ import ListItemComponent from "./ListItemComponent";
 const useStyles = makeStyles((theme) => ({
     root: {
         width: '100%',
-        maxWidth: 280,
-        backgroundColor: "#dfe6e9",
-        padding: 10,
-        borderRadius: 25
+        maxWidth: 280
     },
 }));
 
