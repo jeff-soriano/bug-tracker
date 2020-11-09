@@ -6,7 +6,7 @@ import DeleteIcon from '@material-ui/icons/Delete';
 import PropTypes from 'prop-types';
 
 export default function ListItemComponent({ id, text, onDelete }) {
-    return <ListItem>
+    return <ListItem button>
         <ListItemText
             primary={text}
         />
